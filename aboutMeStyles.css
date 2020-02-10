@@ -1,0 +1,120 @@
+body
+{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3
+{
+  font-family: "Montserrat";
+}
+/* Headings */
+.section-heading
+{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid
+{
+  padding: 7% 15%;
+}
+/* Title */
+#title
+{
+  background-color: #333333;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid
+{
+  padding: 3% 15% 7%;
+}
+.homepage
+{
+  color: #706c61;
+}
+.homepage:hover
+{
+  color: #fff;
+}
+/* Title Image */
+.title-image
+{
+  border-radius: 100%;
+  width: 70%;
+  position: absolute;
+  right: 30%;
+}
+/* Subjects Section */
+#subjects
+{
+  background-color: #fff;
+  position: relative;
+}
+.classes
+{
+  font-size: 2rem;
+}
+/* My Mood Section */
+#my-mood
+{
+  background-color: #333333;
+  color: #fff;
+}
+#my-mood .container-fluid
+{
+  padding-top: 1%;
+}
+.mood-image
+{
+  width: 60%;
+  border-radius: 100%;
+  margin: 30px;
+}
+/* Movies Section */
+#my-movies
+{
+  background-color: #fff;
+  padding: 100px;
+}
+.movie-pic
+{
+  width: 90%;
+}
+.movie-name
+{
+  font-weight: 700;
+}
+.price-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.movies-column
+{
+  padding: 3% 2%;
+}
+/* Neighbours */
+
+.neighbour-fact
+{
+  font-size: 1.5rem;
+}
+#neigbours
+{
+  background-color: #333333;
+  color: #fff;
+}
+@media (max-width: 1028px)
+{
+  #title
+  {
+    text-align: center;
+  }
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}

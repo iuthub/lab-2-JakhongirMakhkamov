@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jakhongir Makhkamov</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="aboutMeStyles.css">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome Script -->
+  <script src="https://kit.fontawesome.com/a86e21bb4e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="title-image" src="myphoto.jpg" alt="My image">
+        </div>
+        <div class="col-lg-6">
+          <h1>Jakhongir Makhkamov</h1>
+          <h3>Sophomore student at <a class="homepage" href="https://inha.uz/">Inha University in Tashkent</a>, School of Computer Science and Software Engineering.</h3>
+          <h3>Big fan of <a class="homepage" href="https://en.wikipedia.org/wiki/Manchester_United_F.C.">Manchester United</a>.</h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Subjects -->
+
+  <section id="subjects">
+
+    <h1 class="section-heading">Courses I am taking at IUT right now:</h1>
+    <ul class="list-group list-group-flush classes">
+      <li class="list-group-item classes">Internet Programming</li>
+      <li class="list-group-item classes">System Programming</li>
+      <li class="list-group-item classes">Computer Architecture</li>
+      <li class="list-group-item classes">Circuit and Lab</li>
+      <li class="list-group-item classes">Engineering Mathematics</li>
+      <li class="list-group-item classes">Academic English 4</li>
+      <li class="list-group-item classes">History</li>
+    </ul>
+
+  </section>
+
+  <!-- My mood -->
+
+  <section id="my-mood">
+    <h1 class="section-heading">My Mood</h1>
+    <div id="mood-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <ol class="carousel-indicators">
+          <li data-target="#mood-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mood-carousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-item active container-fluid">
+          <img class="mood-image" src="happy.png" alt="Serious cat">
+          <div class="carousel-caption">
+            <h5 class="mood-heading">Good Mood</h5>
+            <p class="mood-capture">I look like this when I am in a good mood</p>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="mood-image" src="angry.jpg" alt="Angry cat">
+          <div class="carousel-caption">
+            <h5 class="mood-heading">Bad Mood</h5>
+            <p class="mood-capture">I look like this when I am in a bad mood</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#mood-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#mood-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Movies -->
+
+  <section id="my-movies">
+
+    <h1 class="section-heading">My favourite movies</h2>
+    <div class="row">
+      <div class="movies-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="movie-name">Gladiator</h3>
+          </div>
+          <div class="card-body">
+            <img class="movie-pic" src="gladiator.png" alt="Gladiator movie poster" />
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-outline-dark btn-lg btn-block" href="https://www.imdb.com/title/tt0172495/" role="button">IMDb</a>
+          </div>
+        </div>
+      </div>
+      <div class="movies-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="movie-name">The Pursuit Of Happyness</h3>
+          </div>
+          <div class="card-body">
+            <img class="movie-pic" src="pursuit.jpg" alt="The pursuit of Happyness movie poster" />
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-outline-dark btn-lg btn-block" href="https://www.imdb.com/title/tt0454921/" role="button">IMDb</a>
+          </div>
+        </div>
+      </div>
+      <div class="movies-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="movie-name">Django Unchained</h3>
+          </div>
+          <div class="card-body">
+            <img class="movie-pic" src="django.jpg" alt="Django Unchained movie poster" />
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-outline-dark btn-lg btn-block" href="https://www.imdb.com/title/tt1853728/" role="button">IMDb</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+<!--Neigbours -->
+
+  <section id="neigbours">
+    <div class="container-fluid">
+      <h1 class="section-heading">Interesting facts about my neighbours</h1>
+      <p class="neighbour-fact">Jogi is too concerned about his health. He is alarmist.</p>
+      <p class="neighbour-fact">Jack loves watching good quality movies. He is moviegoer.</p>
+    </div>
+  </section>
+
+</body>
+
+</html>
